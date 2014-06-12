@@ -40,9 +40,6 @@
 				$this->tail = $node;
 			}
 			else {
-				// $oldHead = $this->head;
-				// $this->head = $node;
-				// $this->head->next = $oldHead;
 				$node->next = $this->head;
 				$this->head = $node;
 			}
